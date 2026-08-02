@@ -14,19 +14,19 @@ const featuredAlbumItems = [
     src: '/images/nicu.jpg',
   },
   {
-    title: 'Modular Operation Theatre',
-    category: 'Operation OT',
-    src: '/images/in-operation-1.jpg',
-  },
-  {
-    title: 'Surgical Team in Action',
+    title: 'Modular Operation Suite',
     category: 'Operation OT',
     src: '/images/in-operation-2.jpg',
   },
   {
     title: 'Clinical Procedure & Care',
     category: 'Operation OT',
-    src: '/images/inoperationig2.jpg',
+    src: '/images/inoperationig.jpg',
+  },
+  {
+    title: 'Community Health Campaign',
+    category: 'Community & Events',
+    src: '/images/poster-kannada.jpg',
   },
 ]
 
@@ -40,6 +40,75 @@ export default function Home() {
 
       {/* 2. Services & Courses Teaser */}
       <Services />
+
+      {/* 2.5 Faculty & Medical Team Showcase Banner */}
+      <section className="py-16 bg-gradient-to-b from-slate-900 to-slate-950 text-white relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-12 gap-10 items-center">
+            
+            {/* Left: Content */}
+            <div className="lg:col-span-6 space-y-6">
+              <span className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white/10 text-red-300 text-xs font-bold uppercase tracking-wider border border-white/15">
+                <Award className="w-3.5 h-3.5 text-red-400" />
+                Faculty & Healthcare Leadership
+              </span>
+              
+              <h2 className="text-3xl sm:text-4xl font-black tracking-tight leading-tight">
+                Guided by Experienced Doctors & Dedicated Educators
+              </h2>
+
+              <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
+                At Utkarsh Hospital & College, our strength lies in our unified team of senior physicians, clinical nursing instructors, and healthcare administrators working together to deliver top-tier medical services and hands-on clinical training.
+              </p>
+
+              <div className="grid sm:grid-cols-2 gap-4 pt-2">
+                <div className="p-4 rounded-2xl bg-slate-800/80 border border-slate-700/70">
+                  <p className="text-xl font-black text-red-400">17+ Years</p>
+                  <p className="text-slate-400 text-xs font-semibold mt-0.5">Clinical & Academic Excellence</p>
+                </div>
+                <div className="p-4 rounded-2xl bg-slate-800/80 border border-slate-700/70">
+                  <p className="text-xl font-black text-red-400">100% Mentorship</p>
+                  <p className="text-slate-400 text-xs font-semibold mt-0.5">Hands-on Hospital Training</p>
+                </div>
+              </div>
+
+              <div className="pt-2">
+                <Link
+                  href="/about"
+                  className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#8B0000] text-white text-xs font-bold hover:bg-[#700000] transition-colors shadow-lg shadow-red-900/30"
+                >
+                  Learn About Our Faculty & Founders <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Right: Featured Group Photo Card */}
+            <div className="lg:col-span-6 relative">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-800 aspect-[16/10]">
+                <Image
+                  src="/images/group-pic.jpg"
+                  alt="Utkarsh Hospital & College Faculty Group"
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-700"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent flex flex-col justify-end p-6">
+                  <span className="text-xs uppercase font-bold text-red-300 tracking-widest mb-1">
+                    Official Institutional Group Photo
+                  </span>
+                  <h3 className="text-white font-black text-lg sm:text-xl">
+                    Utkarsh Hospital & College Faculty
+                  </h3>
+                  <p className="text-slate-300 text-xs mt-1 leading-snug">
+                    Dedicated team of doctors, nursing instructors, and administrative managers at Utkarsh Hospital & College.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
       {/* 3. Featured Campus Gallery Section */}
       <section className="py-20 bg-white border-y border-slate-100">

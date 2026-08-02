@@ -145,8 +145,8 @@ export function Leadership() {
           className="mt-14 relative rounded-2xl overflow-hidden shadow-xl ring-1 ring-black/5"
         >
           <Image
-            src="/images/group-pic.jpg"
-            alt="Utkarsh Hospital Team"
+            src="/images/inoperationig2.jpg"
+            alt="Utkarsh Hospital Clinical Team"
             width={1200}
             height={420}
             className="w-full h-56 sm:h-64 object-cover object-center"

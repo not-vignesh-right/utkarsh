@@ -16,6 +16,11 @@ const stats = [
 
 const doctors = [
   {
+    name: 'Utkarsh Faculty & Medical Team',
+    title: 'Doctors, Nursing Instructors & Managers',
+    image: '/images/group-pic.jpg',
+  },
+  {
     name: 'Dr. Rajesh Trivedi',
     title: 'Chairman & Founder',
     image: '/images/dr-rajesh-trivedi.jpg',
@@ -256,11 +261,33 @@ export function Hero() {
                 </div>
               </motion.div>
 
-              {/* Dr. Yashashwini — col 1, row 2 */}
+              {/* Faculty Group Photo — col 1-2, row 2 */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.92, y: 16 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ duration: 0.65, delay: 0.44, ease }}
+                whileHover={{ scale: 1.02 }}
+                className="col-span-2 row-span-1 relative rounded-2xl overflow-hidden shadow-lg group cursor-default"
+              >
+                <Image
+                  src="/images/group-pic.jpg"
+                  alt="Utkarsh Hospital & College Faculty Group"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  sizes="360px"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent group-hover:from-[#8B0000]/85 transition-all duration-350" />
+                <div className="absolute bottom-0 left-0 right-0 p-3">
+                  <p className="text-white text-xs font-black leading-tight">Utkarsh Faculty & Medical Team</p>
+                  <p className="text-red-200 text-[10px] font-semibold mt-0.5">Dedicated Doctors, Instructors & Managers</p>
+                </div>
+              </motion.div>
+
+              {/* Dr. Yashashwini — col 3, row 2 */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.92, y: 16 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+                transition={{ duration: 0.65, delay: 0.56, ease }}
                 whileHover={{ scale: 1.03 }}
                 className="col-span-1 row-span-1 relative rounded-2xl overflow-hidden shadow-lg group cursor-default"
               >
@@ -275,50 +302,6 @@ export function Hero() {
                 <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                   <p className="text-white text-[11px] font-black leading-tight">Dr. Yashashwini Trivedi</p>
                   <p className="text-red-200 text-[9px] font-semibold mt-0.5">Gynaecologist</p>
-                </div>
-              </motion.div>
-
-              {/* Mrs. Vidyotma — col 2, row 2 */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.92, y: 16 }}
-                animate={{ opacity: 1, scale: 1, y: 0 }}
-                transition={{ duration: 0.65, delay: 0.56, ease }}
-                whileHover={{ scale: 1.03 }}
-                className="col-span-1 row-span-1 relative rounded-2xl overflow-hidden shadow-lg group cursor-default"
-              >
-                <Image
-                  src="/images/mrs-vidyotma-trivedi-cochairman-and-cofounder.jpg"
-                  alt="Mrs. Vidyotma Trivedi"
-                  fill
-                  className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
-                  sizes="180px"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent group-hover:from-[#8B0000]/90 transition-all duration-350" />
-                <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-                  <p className="text-white text-[11px] font-black leading-tight">Mrs. Vidyotma Trivedi</p>
-                  <p className="text-red-200 text-[9px] font-semibold mt-0.5">Co-Chairman & Co-Founder</p>
-                </div>
-              </motion.div>
-
-              {/* Mr. Krishna — col 3, row 2 */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.92, y: 16 }}
-                animate={{ opacity: 1, scale: 1, y: 0 }}
-                transition={{ duration: 0.65, delay: 0.68, ease }}
-                whileHover={{ scale: 1.03 }}
-                className="col-span-1 row-span-1 relative rounded-2xl overflow-hidden shadow-lg group cursor-default"
-              >
-                <Image
-                  src="/images/mr-krishna-tiwari-manager.jpg"
-                  alt="Mr. Krishna Tiwari"
-                  fill
-                  className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
-                  sizes="180px"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent group-hover:from-[#8B0000]/90 transition-all duration-350" />
-                <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-                  <p className="text-white text-[11px] font-black leading-tight">Mr. Krishna Tiwari</p>
-                  <p className="text-red-200 text-[9px] font-semibold mt-0.5">Hospital Manager</p>
                 </div>
               </motion.div>
 
