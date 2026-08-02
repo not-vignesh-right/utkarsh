@@ -1,0 +1,74 @@
+UTKARSH HOSPITAL AND COLLEGE - REDESIGN QUESTIONNAIRE
+
+We have already extracted the following details from your current website code, so you do NOT need to ask your client these basic details:
+- Name: Utkarsh Hospital and College
+- Established: 2007
+- Main Location: Naubasta, Kanpur, Uttar Pradesh, India
+- Contact Number: 9532700007
+- Key Offerings: 100-Bed Multi-Speciality Hospital + Nursing and Paramedical College across 3 Campuses.
+- Leadership Team: Dr. Rajesh Trivedi (Chairman and Founder), Dr. Yashashwini Trivedi (Gynaecologist and Obstetrician), Mrs. Vidyotma Trivedi (Co-Chairman and Co-Founder), Mr. Krishna Tiwari (Hospital Manager).
+- Known College Courses: BSc Nursing (BScN), General Nursing and Midwifery (GNM), Diploma in Optometry (D.OPT), Diploma in Emergency Medical Technology (D.EMT), Diploma in Operation Theatre Technology (D.OTT).
+- Known Hospital Specialties: General Medicine and Surgery, Gynaecology and Obstetrics, Neonatal ICU (NICU), Emergency and Trauma Care.
+
+============================================================
+
+Please copy and send the following questions to your client to get the deep details required for a premium redesign:
+
+PART A: HOSPITAL AND MEDICAL SERVICES (For Patients)
+
+1. Other Specialities and Departments:
+- Besides General Medicine, Gynaecology, NICU, and Emergency, what other departments do you have? (For example: Pediatrics, Orthopedics, Cardiology, General Surgery, Dentistry, Physiotherapy?)
+- Do you have outpatient department (OPD) consultation timings and days for each doctor? Please share them.
+
+2. Facilities and Equipment:
+- What diagnostic services are available inside the hospital? (For example: X-Ray, Ultrasound, Pathology Lab, ECG, CT Scan?)
+- Do you have specialized facilities like ICU (Adult ICU), NICU (Neonatal ICU - if yes, how many beds?), Modular Operation Theatres, and a 24/7 in-house Pharmacy?
+- Do you offer emergency services like Cardiac Ambulances?
+
+3. Insurances and Cashless TPA Panels:
+- Do you support cashless treatments or insurance panels? If yes, please list the government schemes (such as Ayushman Bharat) and private insurance TPAs you are tied up with.
+
+4. Additional Patient Services:
+- Do you want patients to be able to download lab reports directly from the website?
+- Do you want an online booking system where patients can choose a time slot and pay consultation fees online, or is a simple booking inquiry form enough?
+- Do you offer home healthcare services (such as home nurse visits, home sample collection)?
+
+
+PART B: NURSING AND PARAMEDICAL COLLEGE (For Students and Parents)
+
+1. Affiliations and Recognitions:
+- Which university is the college affiliated with? (For example: Atal Bihari Vajpayee Medical University, CSJM University Kanpur?)
+- Which councils are these courses approved/recognized by? (For example: Indian Nursing Council - INC, Uttar Pradesh State Medical Faculty - UPSMF?)
+- Do you have accreditation certificates or approvals we need to display on the site?
+
+2. Admission Details for Courses:
+- What is the eligibility criteria (such as 10+2 with Physics, Chemistry, Biology) and age limit for each course (BScN, GNM, D.OPT, D.EMT, D.OTT)?
+- What is the intake capacity (number of seats available) for each course?
+- What is the fee structure for each course, or do you prefer to keep that confidential and have them contact you?
+- What is the step-by-step admission process? Do students need to clear an entrance exam?
+
+3. Campus Facilities and Student Life:
+- What facilities do you offer to college students? (For example: Hostel/Accommodation for boys/girls, library, digital classrooms, advanced science and practical labs, computer lab, college transport?)
+- Can you provide pictures of the classrooms, hostel, labs, and students in training?
+- Do you have an active placement cell? What are the top hospitals/organizations where your students have been placed?
+
+4. Student Portal / Admin Needs:
+- Do students need an online portal for downloading academic calendars, syllabus files, exam results, or paying semester fees online?
+
+
+PART C: DESIGN, COPY AND TECHNICAL PREFERENCES
+
+1. Structure of the Website:
+Since this is both a Hospital and a College, would you prefer the website to:
+- Option 1: Share a single website with two equal main sections (Hospital and College).
+- Option 2: Have a main portal page that asks visitors "Are you looking for Healthcare Services?" or "Are you looking for Admissions?" and then redirects them to two completely separate design interfaces (sub-sites).
+Which option do you prefer?
+
+2. Content and Photos:
+- Do you have high-quality professional photos of the actual building, campuses, operating rooms, labs, and staff? (Real photos are highly recommended over stock photos to build trust).
+- Who will provide the text content for the various pages? Do you have an existing brochure/prospectus you can share with us?
+
+3. Digital Marketing and Integrations:
+- Do you have existing social media handles (Facebook, Instagram, LinkedIn, YouTube) we should link to?
+- Would you like a WhatsApp chat integration for quick inquiries?
+- Do you need a Google Maps link set up for each of the 3 campuses? Please share the exact addresses of all 3 campuses.
