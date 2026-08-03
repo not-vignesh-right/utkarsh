@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Phone, MapPin, Heart, Mail } from 'lucide-react'
+import { Phone, MapPin } from 'lucide-react'
 
 const quickLinks = [
   { label: 'Home', href: '/' },
@@ -135,14 +135,9 @@ export function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex items-center justify-center">
           <p className="text-slate-500 text-xs">
             © {new Date().getFullYear()} Utkarsh Hospital & College. All rights reserved.
-          </p>
-          <p className="text-slate-600 text-xs flex items-center gap-1.5">
-            Made with{' '}
-            <Heart className="w-3 h-3 text-[#C41E3A] fill-[#C41E3A] inline" />{' '}
-            for the community of Kanpur
           </p>
         </div>
       </div>
